@@ -7,7 +7,12 @@
     --border-color: #495057;
     --section-bg: rgba(255, 255, 255, 0.05);
 }
-
+iframe{
+    width: 600px;
+    height: 300px;
+    frame
+}
+    
 
 
 * {

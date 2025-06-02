@@ -7,12 +7,7 @@
     --border-color: #495057;
     --section-bg: rgba(255, 255, 255, 0.05);
 }
-iframe{
-    width: 600px;
-    height: 300px;
-    frame
-}
-    
+
 
 
 * {
@@ -29,7 +24,16 @@ body {
     min-height: 100vh;
     font-size: 1.1rem;
 }
-
+object{
+    width: 300px;
+    height: 300px;
+}
+iframe{
+    
+    width: 900px;
+    height: 300px;
+    
+}
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -60,7 +64,7 @@ header {
 }
 
 .profile-image:hover {
-    transform: scale(1.05);
+    transform: scale(1.5);
 }
 
 .name {

@@ -8,9 +8,13 @@
     --section-bg: rgba(255, 255, 255, 0.05);
 }
 
-object{
-    width: 250px;
-    height: 250px;
+
+.secondph{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -41,7 +45,6 @@ iframe{
     padding: 2rem;
 }
 
-/* Header Styles */
 header {
     text-align: center;
     margin-bottom: 3rem;
@@ -74,7 +77,6 @@ header {
     color: var(--text-color);
 }
 
-/* Buttons */
 .buttons {
     display: flex;
     justify-content: center;
@@ -100,14 +102,6 @@ header {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Social Links (محذوفة من العرض، بس لو بدك تضيفها لاحقًا) */
-.social-links {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin: 2rem 0;
-}
-
 .social-icon {
     color: var(--text-color);
     background: var(--primary-color);
@@ -127,7 +121,6 @@ header {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Sections */
 .section {
     background: var(--section-bg);
     border: 1px solid var(--border-color);
@@ -144,7 +137,6 @@ header {
     gap: 0.5rem;
 }
 
-/* Info Grid */
 .info-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -161,7 +153,6 @@ header {
     color: var(--primary-color);
 }
 
-/* Contact Links */
 .contact-links {
     display: flex;
     flex-direction: column;
@@ -190,7 +181,6 @@ header {
     color: var(--primary-hover);
 }
 
-/* Skills Grid */
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -211,7 +201,6 @@ header {
     transform: translateY(-2px);
 }
 
-/* Responsive Design */
 @media (max-width: 1200px) {
     .container {
         padding: 1.5rem;
